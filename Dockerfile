@@ -4,5 +4,5 @@ COPY package*.json ./
 
 RUN npm install
 
-COPY . /app
-CMD ["node", "index.js"]
+COPY . /github/workspace
+CMD ["npm", "run"]
