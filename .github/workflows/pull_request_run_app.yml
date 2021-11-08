@@ -1,0 +1,7 @@
+name: Run
+on: [push]
+jobs:
+  run-app:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: action.yml
